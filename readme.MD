@@ -1,21 +1,26 @@
-##A simple python app for test purposes.
+## A simple python app for test purposes.
 
-###BUILD LOCALLY
+### BUILD LOCALLY:
+```bash
 docker build --tag my-python-sample-app .
+```
 
-
-###RUN
+### RUN:
+```bash
 docker run --name python-sample-app -p 5000:5000 my-python-sample-app -d
-
-###TAGGING
+```
+### TAGGING:
+```bash
 docker tag my-python-sample-app <REPO>/my-python-sample-app:1.0
-
-###PUSH TO REGISTRY
+```
+### PUSH TO REGISTRY:
+```bash
 docker push <REPO>/my-python-sample-app:1.0
-
-###BUILD WITH TAG
+```
+### BUILD WITH TAG:
+```bash
 docker build -t <REPO>/my-python-sample-app:1.0
-
+```
 
 
 
