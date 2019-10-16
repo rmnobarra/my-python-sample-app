@@ -22,7 +22,7 @@ docker push <REPO>/my-python-sample-app:1.0
 docker build -t <REPO>/my-python-sample-app:1.0
 ```
 
-### RUN FROM REGISTRY
+### RUN FROM REGISTRY:
 ```bash
 docker run --name python-app -p 5000:5000 rmnobarra/my-python-sample-app:1.0
 ```
